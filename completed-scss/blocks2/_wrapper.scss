@@ -1,0 +1,222 @@
+.wrapper{
+    
+    padding: 0 85px 0 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+}
+.text{
+    &__list{
+        width: 255px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        margin-bottom: 24px;
+    }
+    &__line{
+        width: 255px;
+        margin: 0;
+        background: #83888F;
+        opacity: 0.25;
+    }
+    &__discription{
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        opacity: 0.4;
+        margin: 0;
+    }
+    &__number{
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0E8784;
+        text-decoration: none;
+        opacity: 0.4;
+    }
+    &__btn{
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        opacity: 0.4;
+    }
+    &__discription--last{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        margin: 0;
+        
+    }
+    &__number--last{
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        text-decoration: none;
+    }
+}
+.wraps{
+    &__list{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    } 
+    &__item{
+        margin-bottom: 88px;
+    }
+    
+    &__titles{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 56px;
+    }
+    &__title{
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+        margin: 0;
+    }
+}
+.wrap__list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.wrap__item{
+    padding: 32px 28px 84px 28px;
+    background: #F4F1EB;
+    border-radius: 8px;
+    margin-right: 23px;
+    // border:1px solid black;
+}
+.wrap__item:last-child{
+    margin-right: 0;
+}
+.wrap__item--color{
+    padding: 32px 28px 84px 28px;
+    background: #0E8784;
+    border-radius: 8px;
+    margin-right: 23px;
+}
+.fas{
+    color: #0E8784;
+}
+.wrap__text{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.wrap__text--color{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.wrap__discription{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    color: #333D4B;
+}
+.wrap__discription--color{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin: 0;
+}
+.wraps__item:nth-child(6){
+    margin-bottom: 0;
+}
+.wraps__links{
+    background: #2C343E;
+    border-radius: 10px;
+    padding: 27px 64px;
+}
+.wraps__order{
+    font-family:" Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.wraps__discription{
+    width: 602px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 0;
+    
+}
+.wraps__link{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #0E8784;
+    margin: 0;
+    text-decoration: none;
+}
+.wraps__create{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background: #66D2CF;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #FEFCF7;
+    padding: 15px 35.5px 16px 35.5px;
+    display: inline-block;
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 513px;
+    
+}

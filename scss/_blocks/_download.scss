@@ -1,0 +1,99 @@
+.download{
+    width: 955px;
+    height: 656px;
+    margin-top: 351px;
+    margin-left: 95px;
+    margin-right: 230px;
+    margin-bottom: 200px;
+}
+.download__title{
+    font-family:" Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;    
+    color: #83888F;
+    display: inline-block;
+    margin: 0;
+}
+.line{
+    box-sizing:border-box;
+    width: 800px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #FDD6BA;
+    background-color: #FDD6BA;
+    margin-top: 80px;
+}
+.link__circle{
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+.download__number{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin: 0;
+}
+.download__list{
+    width: 1045px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 67px;
+}
+.download__item{
+    width: 285px;
+    height: 355px;
+    padding: 0;
+    margin-right: 95px;
+}
+.download__item:last-child{
+    margin-right: 0;
+}
+.download__text{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    color: #333D4B;
+    
+}
+.download__discription{
+    width: 295px;
+    height: 130px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    margin: 0;
+    padding: 0;
+    
+}
+.download__link{
+    @extend %page__link;
+    margin-top: 64px;
+    &__link:hover{
+        background: #66D2CF;
+    }
+    &__link:active{
+        background: #E2DEDB;
+    }
+}

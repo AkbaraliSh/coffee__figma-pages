@@ -1,0 +1,77 @@
+.download{
+    padding:91px 150px 109px 85px;
+    background: #2C343E;
+    border-radius: 10px;
+    margin-bottom: 159px;
+}
+.line{
+    box-sizing:border-box;
+    width: 760px;
+    height:1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #FDD6BA;
+    padding-left: 15px;
+}
+.link__circle{
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    transform: translateX(-30px);
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+.three{
+    transform: translateX(20px);
+}
+.download__number{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin: 0;
+}
+.download__list{
+    width: 1045px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 67px;
+}
+.download__item{
+    width: 285px;
+    height: 355px;
+    padding: 0;
+    margin-right: 95px;
+}
+.download__item:last-child{
+    margin-right: 0;
+}
+.download__text{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    
+}
+.download__discription{
+    width: 285px;
+    height: 130px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin: 0;
+    padding: 0;
+    
+}

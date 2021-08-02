@@ -1,0 +1,30 @@
+.about{
+    border: 1px solid black;
+    width: 445px;
+    height: 176px;
+    background: #A2A2A2;
+    border-radius: 10px;
+    background-image:url(../img/Bitmap3.png);
+    background-repeat: no-repeat;
+    margin-bottom: 168px;
+    padding: 134px 750px 134px 85px ;
+}
+.about__title{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0;
+}
+.about__discription{
+    width: 445px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin: 0;
+}

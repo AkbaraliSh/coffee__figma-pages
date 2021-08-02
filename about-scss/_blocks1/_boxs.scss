@@ -1,0 +1,60 @@
+.boxs{
+    width: 1045px;
+    margin-left: 85px;
+    margin-bottom: 168px;
+}
+.boxs__title{
+    width: 255px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin: 0;
+    margin-bottom: 72px;
+}
+.boxs__list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.boxs__item{
+    margin: 0;
+    padding: 0;
+    margin-right: 95px;
+}
+.box__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.boxs__item{
+    width: 285px;
+}
+.boxs__item:last-child{
+    width: 255px;
+    margin-right: 0;
+}
+.box__text{
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-top: 46px;
+    margin-bottom: 24px;
+}
+.box__link{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    text-decoration: none;
+}
