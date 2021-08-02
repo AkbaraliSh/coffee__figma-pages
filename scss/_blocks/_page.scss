@@ -1,16 +1,12 @@
 .page{
-    border: 1px solid black;
-    width: 1280px;
-    height: 600px;
+    width: 493px;
+    height: 367px;
     background: #A2A2A2;
     border-radius: 10px;
     background-image:url(../img/Bitmap2.png);
     background-repeat: no-repeat;
     margin-bottom: 136px;
-}
-.page__items{
-    width: 493px;
-    list-style-type: none;
+    padding: 117px 702px 116px 85px;
 }
 .page__title{
     width: 493px;
@@ -20,10 +16,9 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
-    margin-left: 86px;
-    margin-bottom: 32px;
-    margin-top: 117px;
     color: #FEFCF7;
+    margin: 0;
+    margin-bottom: 32px;
 }
 .page__discription{
     width: 407px;
@@ -35,13 +30,11 @@
     line-height: 26px;
     color: #FEFCF7;
     opacity: 0.8;
-    margin-left: 86px;
+    margin: 0;
     margin-bottom: 56px;
 }
 .page__link{
     @extend %page__link;
-    margin-left: 86px;
-    margin-bottom: 116px;
     &__link:hover{
         background: #66D2CF;
     }
@@ -52,22 +45,15 @@
 
 @media screen and (max-width:768px) {
     .page{
-        border: 1px solid black;
         width: 689px;
         height: 500px;
-        background: #A2A2A2;
-        border-radius: 10px;
         background-image:url(../img/tablet-Bitmap.png);
         background-repeat: no-repeat;
         margin-bottom: 120px;
 
         &__title{
-            font-family: "Fraunces";
-            font-style: normal;
-            font-weight: 900;
             font-size: 48px;
             line-height: 48px;
-            color: #FEFCF7;
             margin: 0;
             margin-bottom: 24px;
             margin-top: 104px;
@@ -76,9 +62,6 @@
 
         &__discription{
             width: 398px;
-            font-family: "Barlow";
-            font-style: normal;
-            font-weight: normal;
             font-size: 15px;
             line-height: 25px;
             color: #FEFCF7;
@@ -92,13 +75,5 @@
         &__items{
             width:398px;
         }
-        
-        // &__link{
-        //     // @extend %page__link;
-            
-        //     // margin-right: 20px;
-        //     // margin-bottom: 99px;
-            
-        // }
     }
 }

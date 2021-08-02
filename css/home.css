@@ -15,7 +15,7 @@
 
 body {
   background: #F2F2F2;
-  padding: 45px 0px 88px 0px;
+  padding: 45px 80px 88px 80px;
 }
 
 .continer {
@@ -36,7 +36,20 @@ body {
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 40px;
+}
+
+.header__logo {
+  text-decoration: none;
 }
 
 .header__nav {
@@ -95,19 +108,14 @@ body {
 }
 
 .page {
-  border: 1px solid black;
-  width: 1280px;
-  height: 600px;
+  width: 493px;
+  height: 367px;
   background: #A2A2A2;
   border-radius: 10px;
   background-image: url(../img/Bitmap2.png);
   background-repeat: no-repeat;
   margin-bottom: 136px;
-}
-
-.page__items {
-  width: 493px;
-  list-style-type: none;
+  padding: 117px 702px 116px 85px;
 }
 
 .page__title {
@@ -118,10 +126,9 @@ body {
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  margin-left: 86px;
-  margin-bottom: 32px;
-  margin-top: 117px;
   color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 .page__discription {
@@ -134,13 +141,8 @@ body {
   line-height: 26px;
   color: #FEFCF7;
   opacity: 0.8;
-  margin-left: 86px;
+  margin: 0;
   margin-bottom: 56px;
-}
-
-.page__link {
-  margin-left: 86px;
-  margin-bottom: 116px;
 }
 
 .page__link__link:hover {
@@ -153,22 +155,15 @@ body {
 
 @media screen and (max-width: 768px) {
   .page {
-    border: 1px solid black;
     width: 689px;
     height: 500px;
-    background: #A2A2A2;
-    border-radius: 10px;
     background-image: url(../img/tablet-Bitmap.png);
     background-repeat: no-repeat;
     margin-bottom: 120px;
   }
   .page__title {
-    font-family: "Fraunces";
-    font-style: normal;
-    font-weight: 900;
     font-size: 48px;
     line-height: 48px;
-    color: #FEFCF7;
     margin: 0;
     margin-bottom: 24px;
     margin-top: 104px;
@@ -176,9 +171,6 @@ body {
   }
   .page__discription {
     width: 398px;
-    font-family: "Barlow";
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
     color: #FEFCF7;
@@ -224,7 +216,7 @@ body {
   -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 0;
-  z-index: -3;
+  z-index: -1;
   padding-top: 25px;
   -webkit-transform: translateY(-180px);
           transform: translateY(-180px);
@@ -498,9 +490,25 @@ body {
   background: #E2DEDB;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 48px 58px 48px 59px;
+  background: #2C343E;
+}
+
+.footer__logo {
+  text-decoration: none;
+  margin-right: 103px;
+}
+
 .footer__nav {
-  width: 1163px;
-  height: 29px;
+  width: 285px;
+  height: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,13 +518,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #2C343E;
   margin: 0;
-  padding: 48px 58px 48px 59px;
+  margin-right: 370px;
 }
 
 .footer__list {
-  width: 800px;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -529,7 +535,6 @@ body {
           justify-content: center;
   margin: 0;
   padding: 0;
-  margin-left: 130px;
 }
 
 .footer__item {
@@ -552,18 +557,29 @@ body {
   margin-right: 0;
 }
 
-.footer__item:nth-child(4) {
+.footer__icon--list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__icon--item:nth-child(1) {
   width: 24px;
-  margin-left: 370px;
   margin-right: 24px;
 }
 
-.footer__item:nth-child(5) {
+.footer__icon--item:nth-child(2) {
   width: 24px;
   margin-right: 24px;
 }
 
-.footer__item:nth-child(6) {
+.footer__icon--item:nth-child(3) {
   width: 24px;
   margin-right: 0px;
 }

@@ -1,5 +1,11 @@
 .header{
-        margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header__logo{
+    text-decoration: none;
 }
 .header__nav{
     display: flex;
@@ -33,7 +39,7 @@
     text-decoration: none;
 }
 @media screen and (max-width:768px) {
-   .header{
-       margin-bottom: 50px;
-   }
+    .header{
+        margin-bottom: 50px;
+    }
 }
