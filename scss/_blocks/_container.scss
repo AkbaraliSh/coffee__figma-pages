@@ -1,20 +1,39 @@
 body{
+    width: 1280px;
+    margin: 0 auto;
     background: #F2F2F2;
     padding: 45px 80px 88px 80px;
+    overflow-x: hidden;
 }
 .continer{
     width: 1280px;
     margin: 0 auto;
     box-sizing: border-box;
+ 
     
 }
 @media screen and (max-width:768px) {
     
     body{
+        width: 768px;
+        margin: 0 auto;
         padding: 40px;
     } 
     .continer{
         width: 689px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:375px) {
+     
+    body{
+        width: 375px;
+        margin: 0 auto;
+        padding: 32px 24px 72px 24px;
+    }
+
+    .continer{
+        width: 327px;
         margin: 0 auto;
     }
 }

@@ -176,9 +176,9 @@ body {
   margin: 0;
 }
 
-.coffee___img {
-  -webkit-transform: translateY(-200px);
-          transform: translateY(-200px);
+.coffee__img {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
 }
 
 .boxs {

@@ -1,9 +1,8 @@
 .download{
-    width: 955px;
-    height: 656px;
+    width: 1045px;
+    height: 665px;
     margin-top: 351px;
     margin-left: 95px;
-    margin-right: 230px;
     margin-bottom: 200px;
 }
 .download__title{
@@ -48,7 +47,6 @@
     width: 1045px;
     display: flex;
     align-items: center;
-    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -64,6 +62,8 @@
     margin-right: 0;
 }
 .download__text{
+    word-wrap: 255px;
+    height: 72px;
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
@@ -95,5 +95,107 @@
     }
     &__link:active{
         background: #E2DEDB;
+    }
+}
+@media screen and (max-width:768px) {
+    .download{
+        width: 698px;
+        height: 612px;
+        margin: 0;
+        margin-top: 434px;
+        margin-bottom: 144px;
+        
+        &__list{
+            margin-bottom: 44px;
+        }
+        
+        &__item{
+            width: 223px;
+            height: 371px;
+            margin: 0;
+        }
+        &__text{
+            width: 223px;
+            height: 65px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        
+        &__discription{
+            width: 223px;
+            height: 154px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        
+        &__link{
+            margin-top: 0;
+        }
+    }
+    
+    .line{
+        width: 467px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+    .download{
+        width: 327px;
+        height: 1116px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 120px;
+        
+        &__title{
+            width: 327px;
+            height: 32px;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        &__list{
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            margin-bottom: 79px;
+        }
+
+        &__item{
+            width: 327px;
+            height: 252px;
+            margin-bottom: 56px;
+        }
+
+        &__item{
+            margin-bottom: 56px;
+        }
+
+        &__item:last-child{
+            margin-bottom: 0;
+        }
+        
+        &__number{
+            width: 90px;
+            margin: 0 auto;
+        }
+        
+        &__text{
+            width: 327px;
+            height: 32px;
+            font-size: 28px;
+            line-height: 32px;
+            margin:24px 0px 24px 0px;
+        }
+
+        &__discription{
+            width: 327px;
+            height: 100px;
+        }
+    }
+    
+    .line{
+        display: none;
     }
 }

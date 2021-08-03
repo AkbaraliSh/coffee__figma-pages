@@ -1,7 +1,6 @@
 .footer{
     display: flex;
     align-items: center;
-    
     padding: 48px 58px 48px 59px;
     background: #2C343E;
 }
@@ -61,4 +60,65 @@
 .footer__icon--item:nth-child(3){
     width: 24px;
     margin-right: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        width: 283px;
+        height: 162px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 54px 191px 54px 215px;
+
+        &__logo{
+            width: 236px;
+            height: 26px;
+            margin: 0;
+            margin-bottom: 32px;
+        }
+
+        &__nav{
+            width: 285px;
+            height: 15px;
+            margin: 0;
+            margin-bottom: 65px;
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    
+    .footer{
+        width: 273px;
+        height: 292px;
+        padding: 27px;
+
+        &__logo{
+            width: 233px;
+            height: 24px;
+            margin-bottom: 88px;
+        }
+
+        &__nav{
+            width: 122px;
+            height: 93px;
+            margin-bottom: 48.56px;
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        &__item{
+            margin: 0;
+            margin-bottom: 24px;
+        }
+
+        &__item:last-child{
+            margin-bottom: 0;
+        }
+    }
 }
