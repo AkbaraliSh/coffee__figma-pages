@@ -103,15 +103,12 @@
     display: flex;
     margin: 0;
     padding: 0;
-    
-    
 }
 .wrap__item{
     padding: 32px 28px 84px 28px;
     background: #F4F1EB;
     border-radius: 8px;
     margin-right: 23px;
-    // border:1px solid black;
 }
 .wrap__item:last-child{
     margin-right: 0;
@@ -146,6 +143,7 @@
     margin-bottom: 24px;
 }
 .wrap__discription{
+    width: 172px;
     font-family: "Barlow";
     font-style: normal;
     font-weight: normal;
@@ -155,6 +153,8 @@
     color: #333D4B;
 }
 .wrap__discription--color{
+    width: 172px;
+    height: 78px;
     font-family: "Barlow";
     font-style: normal;
     font-weight: normal;
@@ -221,4 +221,97 @@
     margin-top: 40px;
     margin-left: 513px;
     
+}
+
+@media screen and (max-width:768px) {
+    
+    
+    body{
+        width: 768px;
+        margin: 0 auto;
+        padding: 40px;
+    } 
+    
+    .wrapper{
+        width: 689px;
+        padding: 0;
+    }
+    
+    .text{
+        display: none;
+    }
+    
+    .wraps{
+        
+        
+        &__order{
+            width: 172px;
+        }
+        
+        &__titles{
+            width: 701px;
+            height: 48px;
+            margin-bottom: 40px;
+        }
+        &__title{
+            width: 506px;
+            font-size: 32px;
+            margin: 0;
+            
+        }
+        &__item{
+            margin-bottom: 100px;
+        }
+        
+        &__item:nth-child(5){
+            margin-bottom: 140px;
+        }
+        
+        &__item:nth-child(6){
+            width: 730px;
+        }
+        
+        &__links{
+            width: 602px;
+            padding-right: 43px;
+            padding-left: 44px;
+            margin-bottom: 40px;
+        }
+        
+        &__create{
+            width: 146px;
+            height: 25px;
+            margin: 0;
+            margin-left: 236px;
+            
+        }
+        
+        
+    }
+    
+    .wrap{
+        
+        &__item{
+            padding: 32px 26px 84px 25px;
+        }
+    }
+    .one{
+        margin-left: 183px;
+    }
+    
+    .two{
+        margin-left: 348px;
+    }
+    
+    .three{
+        margin-left: 230px;
+    }
+    
+    .four{
+        margin-left: 303px;
+    }
+    
+    .five{
+        margin-left: 202px;
+    }
 }
