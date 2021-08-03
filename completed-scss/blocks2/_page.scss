@@ -1,7 +1,6 @@
 .page{
-    border: 1px solid black;
-    width: 485px;
-    height: 176px;
+    width: 486px;
+    height: 182px;
     background: #A2A2A2;
     border-radius: 10px;
     background-image:url(../img/Bitmap.png);
@@ -30,4 +29,29 @@
     color: #FEFCF7;
     opacity: 0.8;
     margin:0;
+}
+@media screen and (max-width:768px) {
+    
+    .page{
+        width: 398px;
+        height: 147px;
+        background-image:url(../img/completed-tablet.png);
+        background-repeat: no-repeat;
+        padding: 127px 233px 126px 58px;
+    }
+    .page__title{
+        width: 324px;
+        height: 48px;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+    
+    .page__discription{
+        width: 398px;
+        height: 75px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
 }
