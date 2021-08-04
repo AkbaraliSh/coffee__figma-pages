@@ -55,3 +55,30 @@
     }
     
 }
+
+@media screen and (max-width:375px) {
+    
+    .page{
+        width: 279px;
+        height: 163px;
+        background-image:url(../img/completed-phone.png);
+        background-repeat: no-repeat;
+        padding: 101px 24px 136px 24px ;
+        margin-bottom: 120px;
+    }
+    .page__title{
+        width: 279px;
+        height: 40px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 22px;
+    }
+    
+    .page__discription{
+        width: 279px;
+        height: 101px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+}

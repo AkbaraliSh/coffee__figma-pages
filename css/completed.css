@@ -110,6 +110,9 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
   .header {
     width: 327px;
     display: -webkit-box;
@@ -191,6 +194,30 @@ body {
   .page__discription {
     width: 398px;
     height: 75px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page {
+    width: 279px;
+    height: 163px;
+    background-image: url(../img/completed-phone.png);
+    background-repeat: no-repeat;
+    padding: 101px 24px 136px 24px;
+    margin-bottom: 120px;
+  }
+  .page__title {
+    width: 279px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+  .page__discription {
+    width: 279px;
+    height: 101px;
     font-size: 15px;
     line-height: 25px;
   }
@@ -344,12 +371,16 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    padding: 0;
+  }
   .download {
     width: 327px;
-    height: 1116px;
+    height: 866px;
     text-align: center;
     margin: 0;
     margin-bottom: 120px;
+    padding: 80px 24px 79px 24px;
   }
   .download__title {
     width: 327px;
@@ -359,6 +390,7 @@ body {
   }
   .download__list {
     width: 327px;
+    height: 866px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -367,11 +399,11 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0;
-    margin-bottom: 79px;
   }
   .download__item {
     width: 327px;
     height: 252px;
+    margin: 0;
     margin-bottom: 56px;
   }
   .download__item {
@@ -708,20 +740,94 @@ body {
   .wrap__item {
     padding: 32px 26px 84px 25px;
   }
-  .one {
-    margin-left: 183px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+    padding: 32px 24px 72px 24px;
   }
-  .two {
-    margin-left: 348px;
+  .wrapper {
+    width: 328px;
   }
-  .three {
-    margin-left: 230px;
+  .wraps {
+    width: 328px;
   }
-  .four {
-    margin-left: 303px;
+  .wraps__item {
+    margin-bottom: 96px;
   }
-  .five {
-    margin-left: 202px;
+  .wraps__item:nth-child(5) {
+    margin-bottom: 120px;
+  }
+  .wraps__titles {
+    width: 328px;
+    height: 56px;
+    margin-bottom: 32px;
+  }
+  .wraps__title {
+    width: 240px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .wraps__links {
+    width: 279px;
+    height: 274px;
+    margin-bottom: 56px;
+    padding: 32px 24px 32px 25px;
+  }
+  .wraps__discription {
+    width: 279px;
+    height: 240px;
+  }
+  .wraps__create {
+    margin-left: 55px;
+  }
+  .fa-chevron-up {
+    margin-left: 69px;
+  }
+  .wrap__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrap__item {
+    width: 278px;
+    height: 92px;
+    padding: 24px 25px;
+    margin-right: 0;
+  }
+  .wrap__item--color {
+    width: 278px;
+    height: 92px;
+    padding: 24px 25px;
+    margin-right: 0;
+  }
+  .wrap__text {
+    width: 175px;
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  .wrap__discription {
+    width: 278px;
+    height: 52px;
+  }
+  .wrap__text--color {
+    width: 175px;
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  .wrap__discription--color {
+    width: 278px;
+    height: 52px;
+  }
+  .fa-chevron-up {
+    margin-left: 69px;
   }
 }
 

@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width:375px) {
+    
+    body{
+        width: 375px;
+    }
     .header{
         width: 327px;
         display: flex;

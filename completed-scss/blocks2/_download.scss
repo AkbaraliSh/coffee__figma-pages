@@ -123,7 +123,7 @@
         width: 467px;
         margin: 0;
     }
-
+    
     .circle-two{
         margin-left: 40px;
     }
@@ -131,12 +131,17 @@
 
 @media screen and (max-width:375px) {
     
+
+    body{
+        padding: 0;
+    }
     .download{
         width: 327px;
-        height: 1116px;
+        height: 866px;
         text-align: center;
         margin: 0;
         margin-bottom: 120px;
+        padding: 80px 24px 79px 24px;
         
         &__title{
             width: 327px;
@@ -146,15 +151,16 @@
         }
         &__list{
             width: 327px;
+            height: 866px;
             display: flex;
             flex-direction: column;
             margin: 0;
-            margin-bottom: 79px;
         }
         
         &__item{
             width: 327px;
             height: 252px;
+            margin: 0;
             margin-bottom: 56px;
         }
         
