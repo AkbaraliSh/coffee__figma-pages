@@ -5,8 +5,7 @@
     margin-bottom: 180px;
 }
 .wrap__title{
-    width: 1111px;
-    height: 196px;
+    text-align: center;
     display: flex;
     align-items: center;
     font-family: "Fraunces";
@@ -73,8 +72,7 @@
     }
     
     .wrap__title{
-        width: 689px;
-        height: 118px;
+        text-align: center;
         font-size: 96px;
         line-height: 72px;
         position: relative;
@@ -123,26 +121,23 @@
         display: flex;
         justify-content: center;
         text-align: center;
-
+        position: relative;
+        
         &__title{
-            width: 375px;
-            height: 72px;
+            text-align: center;
             font-size: 40px;
-            position: relative;
             margin: 0;
             margin-bottom: 13px;
+            position:absolute;
+            top:-100px;
         }
         
         &__list{
             width: 282px;
             height: 1249px;
             padding: 0 47px;
-            position:absolute;
-            top: 860px;
-            right: 0;
-            left: 0;
-            bottom: 0;
-          
+           
+            
         }
         
         &__img{
@@ -170,7 +165,7 @@
             margin-bottom: 16px;
             text-align: center;
         }
-
+        
         &__discription{
             width: 282px;
             height: 50px;
